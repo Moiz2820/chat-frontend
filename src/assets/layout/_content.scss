@@ -1,0 +1,65 @@
+.layout-main-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: space-between;
+    padding: 7rem 2rem 2rem 4rem;
+    transition: margin-left $transitionDuration;
+}
+
+.layout-main {
+    flex: 1 1 auto;
+}
+.avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+
+  .profile {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+  }
+
+  .user-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.user-info img {
+    margin-right: 10px; /* Adjust spacing between image and text as needed */
+}
+
+.user-info .user-name {
+    white-space: nowrap; /* Prevent line break between first and last name */
+}
+
+.form-card {
+    display: flex;
+    justify-content: center;
+  }
+  
+  form {
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  .form-header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .profile-image {
+    max-height: 120px;
+    max-width: 120px;
+    border-radius: 10%;
+  }
+  
+  .field {
+    margin-bottom: 1.5rem;
+  }
